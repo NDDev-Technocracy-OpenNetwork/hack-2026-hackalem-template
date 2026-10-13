@@ -8,18 +8,20 @@ repository:
   lifecycle: active
 provider:
   type: github
-  installation: installation:github-nddev-technocracy-opennetwork
+  installation: installation:github-personal
   repository_id: 1378807620
-  owner: NDDev-Technocracy-OpenNetwork
+  owner: rldyourmnd
   name: hack-2026-hackalem-template
   aliases:
   - owner: NDDev-OpenNetwork
     name: vibestrap
   - owner: NDDev-Technocracy-Archive
     name: hack-2026-hackalem-template
+  - owner: NDDev-Technocracy-OpenNetwork
+    name: hack-2026-hackalem-template
 classification:
   portfolios:
-  - portfolio:nddev-technocracy-opennetwork
+  - portfolio:rldyourmnd
   visibility_contract: public
   data_classification: public
 product:
@@ -40,7 +42,7 @@ product:
 policy:
   profiles:
   - repository-default
-  - organization-default
+  - personal-default
   rollout_ring: standard
 git:
   default_branch: main
