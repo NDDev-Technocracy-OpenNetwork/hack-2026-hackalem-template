@@ -58,6 +58,7 @@ agent:
     provenance_required: false
 module:
   contract: private
+  development: "standalone"
   consumption:
   - git-submodule
   compatibility: none
